@@ -8,6 +8,49 @@
 
 这个仓库不是对推文内容的逐字转录，而是基于那条推文提供的 domain 提示词骨架，结合实际教学过程，逐个 domain 展开出的完整学习资料。
 
+## 思维导图
+
+```mermaid
+mindmap
+  root((Claude Certified Architect Foundations))
+    Domain 1
+      Agentic Architecture & Orchestration
+      Agentic loops
+      Multi-agent orchestration
+      Workflow enforcement
+      Session state and resumption
+    Domain 2
+      Tool Design & MCP Integration
+      Tool interface design
+      Structured error responses
+      tool_choice
+      MCP server integration
+      Built-in tools
+    Domain 3
+      Claude Code Configuration & Workflows
+      CLAUDE.md hierarchy
+      Commands and skills
+      Path-specific rules
+      Plan mode vs direct execution
+      CI/CD integration
+    Domain 4
+      Prompt Engineering & Structured Output
+      Explicit criteria
+      Few-shot prompting
+      tool_use with JSON schema
+      Validation-retry loops
+      Batch processing
+      Multi-instance review
+    Domain 5
+      Context Management & Reliability
+      Context preservation
+      Escalation and ambiguity resolution
+      Error propagation
+      Codebase exploration
+      Human review and confidence calibration
+      Information provenance
+```
+
 ## 学习方法
 
 整个学习过程采用固定方法：
